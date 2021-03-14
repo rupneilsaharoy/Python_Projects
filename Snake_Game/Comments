@@ -1,0 +1,76 @@
+/* Line 1- Pygame- Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language. It imports all the available pygame modules into the pygame package.
+
+Line 2- Random- import random imports the random module, which contains a variety of things to do with random number generation. It can be used perform some action randomly such as to get a random number, selecting a random elements from a list, shuffle elements randomly, etc.
+
+Line 3 - OS- The functions that the OS module provides allows you to interface with the underlying operating system that Python is running on – be that Windows, Mac or Linux. */
+
+
+/* Line 5- pygame module for loading and playing sounds. Initialize the mixer module. The pygame.mixer module helps control the music used in pygame programs. */
+
+/* Line 6- initialize all imported pygame modules. */
+
+/* Line 8- 10- Colors. These are all 8 GB values starting from 0 to 255. */
+
+/* Line 14-15- Creating window */
+
+/* Line 18- Initialize a window or screen for display with a width of 900 and height of 600 */
+
+/* Line 19- Background Image. Load new image from a file (or file-like object) */
+
+/* Line 20- Resize image to new resolution. Alpha adds transparancy to an image. */
+
+/* Line 21- Game Title. Set the current window caption */
+
+/* Line 22- Update portions of the screen for software displays */
+
+/* Line 23- Create an object to help track time */
+
+/* Line 24- Create a Font object from the system fonts */
+
+/* Line 27- The text_screen has 4 arguments. What text to write, which color to write and its x and y coordinates. */
+
+/* Line 28- Create a Text surface object i.e.surface object in which Text is drawn on it, using render() method of pygame font object. An antialias is a technique for minimizing high-resolution image at a lower resolution. */
+
+/* Line 29- gameWindow.blit(screen_text, [x,y]) where (x,y) is the position inside the window where we want the top left of the surface to be. This function says take the background surface and draw it onto the screen and position it at (x,y). */
+
+/* Line 32-34 - Plots the snake. */
+
+/* Line 36-37- The welcome function creates a welcome screen for the user. The exit_game becomes false. */
+
+/* Line 39- the while loop goes on as long as the game is being played. It handles all the events in the game such as which mouse or keyboard button is being pressed and updates the game accordingly. The while loop keeps running while the condition is false. It terminates when the loop is true.*/
+
+/* Line 43- get events from the queue. */
+
+/* Line 44-45 - Closes the game window if the if statement is true and comes out of the while loop. */
+
+/* Line 46- This if condition runs when the user presses a key. */
+
+/* Line 81-82 - Positions the food in the center of the screen. */
+
+/* Line 88-92 - If the if condition is true, then the score is updated in the hiscore.txt. The game window is filled with white color after which the game over message is shown on the screen. */
+
+/* Line 94-96 - In this for loop if the event is in quit mode then exit the game. */
+
+/* Line 98-100 - In this if statement if the enter key is being pressed then the welcome screen is being displayed again. */
+
+/* Line 125-126 - In this if statement if the q key is pressed on the keyboard, then increase the score by 10. */
+
+/* Line 131-134 - The abs() function of Python's standard library returns the absolute value of the given number. If this condition is true then increase the score by 10 and then plots the food at a different place. */
+
+/* Line 136-137 - In this if statement if the condition is true then the score is updated in the hiscore.txt file. The score is converted in integer. */
+
+/* Line 142- Draw a rectangle */
+
+/* Line 145-148 - Appends snake_x and snake_y in the empty head list and then appends the head list in the snk_list. 
+
+/* Line 150-151 - Controls the snake length.*/
+
+/* Line 153-154 - In this if statement if the head is in any of the elements of the snk_list excluding the head then the game is over. */
+
+/* Line 158-159 - In this if statement if the condition is true i.e if the snake touches the borders on any of the four sides then the game is over. */
+
+/* Line 163- Update portions of the screen for software displays. */
+
+/* Line 167- uninitialize all pygame modules. */
+
+/* Line 168- It quits the python program. */
